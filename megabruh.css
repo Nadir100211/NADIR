@@ -1,48 +1,23 @@
-.parent{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.a{
-  margin: 10px;
-  height: 350px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 0 40px ;
-}
 .s{
-  background-color: red;
-  height: 50px;
-  width: 300px;
-  text-align: center; 
-  color: white;
-}
-.d{
-  height: 50px;
-  width: 300px;
-  background-color: green;
-  text-align: center; 
-  color: white;
-}
-.f{
-  height: 50px;
-  width: 300px;
-  text-align: center;
+  background:url(data:image/jpeg;base64,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);
+width: 100vw;
+height: 100vh;
 }
 input{
-  width: 100px;
-  height: 20px;
-  text-align: center;
+  background-color: grey;
+  border: none;
+  outline: none
+}
+.d{
+border-radius: 10px;
+}
+div{
+  justify-content: center;
+  align-items: center;
 }
 .g{
-  background-color: green;
-}
-.h{
-  background-color: red;
-}
-.v{
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  background-color: grey
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;;
 }
